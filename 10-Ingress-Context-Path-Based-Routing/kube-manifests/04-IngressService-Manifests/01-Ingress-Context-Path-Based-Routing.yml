@@ -11,12 +11,12 @@ spec:
       - path: /app1/
         backend:
           name: app1-nginx-clusterip-service
-          Port: 80
+          port: 80
       - path: /app2/
         backend:
           name: app2-nginx-clusterip-service
-          Port: 80          
+          port: 80          
       - path: /
         backend:
           name: usermgmt-webapp-clusterip-service
-          Port: 80
+          port: 80
