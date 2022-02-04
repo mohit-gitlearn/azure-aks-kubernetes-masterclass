@@ -10,13 +10,13 @@ spec:
       paths:
       - path: /app1/
         backend:
-          serviceName: app1-nginx-clusterip-service
-          servicePort: 80
+          name: app1-nginx-clusterip-service
+          Port: 80
       - path: /app2/
         backend:
-          serviceName: app2-nginx-clusterip-service
-          servicePort: 80          
+          name: app2-nginx-clusterip-service
+          Port: 80          
       - path: /
         backend:
-          serviceName: usermgmt-webapp-clusterip-service
-          servicePort: 80
+          name: usermgmt-webapp-clusterip-service
+          Port: 80
